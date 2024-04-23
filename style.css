@@ -67,7 +67,7 @@ button {
 ul li {
     color: #111;
     list-style: none;
-    font-size: 17px;
+    font-size: 16px;
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
@@ -83,7 +83,7 @@ ul li::before {
     background-image: url(img/unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
+    top: 8px;
     left: 8px;
 }
 
@@ -94,12 +94,13 @@ ul li.checked {
 
 ul li.checked::before {
     background-image: url(img/checked.png);
+    top: 7px;
 }
 
 ul li span {
     position: absolute;
     right: 0;
-    top: 5px;
+    top: 1px;
     width: 40px;
     height: 40px;
     font-size: 22px;
